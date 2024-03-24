@@ -1,0 +1,62 @@
+/* Estilo general de la aplicación */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Color de fondo */
+  color: #fff; /* Color del texto */
+}
+
+.App {
+  text-align: center;
+  padding: 20px; /* Añade espacio alrededor de la aplicación */
+  color: #1db954;
+  background-color: #333;
+}
+
+/* Estilo de las tarjetas de álbum */
+.album-card {
+  background-color: #282828; /* Color de fondo de la tarjeta */
+  margin: 10px; /* Añade espacio entre las tarjetas */
+  border-radius: 8px; /* Añade esquinas redondeadas */
+  overflow: hidden; /* Oculta cualquier contenido que sobresalga de la tarjeta */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
+}
+
+/* Estilo de las imágenes de álbum */
+.album-image {
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+}
+
+/* Estilo del nombre del álbum */
+.album-name {
+  font-weight: bold; /* Hace que el nombre del álbum sea negrita */
+  cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+  font-size: 1.2rem; /* Aumenta ligeramente el tamaño de la fuente */
+  color: #1db954; /* Cambia el color del texto a verde */
+  margin: 10px 0; /* Añade espacio entre el nombre del álbum y la imagen */
+}
+
+/* Estilo de las tarjetas de canciones */
+.track-card {
+  background-color: #333; /* Color de fondo de la tarjeta */
+  margin: 10px; /* Añade espacio entre las tarjetas */
+  border-radius: 8px; /* Añade esquinas redondeadas */
+  overflow: hidden; /* Oculta cualquier contenido que sobresalga de la tarjeta */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra suave */
+}
+
+/* Estilo de las imágenes de canciones */
+.track-image {
+  width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+}
+
+/* Estilo del nombre de la canción */
+.track-name {
+  font-weight: bold; /* Hace que el nombre de la canción sea negrita */
+  font-size: 1rem; /* Establece el tamaño de la fuente */
+  color: #fff; /* Cambia el color del texto a blanco */
+  margin: 10px 0; /* Añade espacio entre el nombre de la canción y la imagen */
+}
+
